@@ -8,13 +8,10 @@ Licensing: More information can be found here: https://github.com/akshathjain/sl
 
 import 'package:material_ui/material_ui.dart';
 import 'package:sliding_up_panel/src/controller.dart';
+import 'package:sliding_up_panel/src/entities.dart';
 import 'package:sliding_up_panel/src/gesture_handler.dart';
 
 import 'package:sliding_up_panel/src/state.dart';
-
-enum SlideDirection { up, down }
-
-enum PanelState { open, closed }
 
 class SlidingUpPanel extends StatefulWidget {
   /// The Widget that slides into view. When the

@@ -27,7 +27,7 @@ Future<TestGesture> _pumpPanelAndStartDrag(
                 if (showPanel())
                   SlidingUpPanel(
                     controller: controller,
-                    defaultPanelState: PanelState.open,
+                    defaultPanelState: .open,
                     minHeight: 100,
                     maxHeight: 300,
                     panelBuilder: (sc) =>
