@@ -1,0 +1,31 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
+
+linter:
+  rules:
+    - avoid_annotating_with_dynamic
+    - implicit_call_tearoffs
+    - leading_newlines_in_multiline_strings
+    - lines_longer_than_80_chars
+    - prefer_const_declarations
+    - prefer_const_constructors
+    - prefer_const_constructors_in_immutables
+    - prefer_constructors_over_static_methods
+    - prefer_mixin
+    - prefer_spread_collections
+    - unnecessary_async
+    - unnecessary_lambdas
+    - unnecessary_late
+    - unnecessary_raw_strings
+    - unnecessary_unawaited
+    - use_enums
+
