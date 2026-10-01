@@ -243,7 +243,10 @@ class _SlidingUpPanelState extends State<SlidingUpPanel>
     final screenSize = MediaQuery.of(context).size;
 
     return Stack(
-      alignment: widget.slideDirection == .up ? .bottomCenter : .topCenter,
+      alignment: switch (widget.slideDirection) {
+        .up => .bottomCenter,
+        .down => .topCenter,
+      },
       children: [
         //make the back widget take up the entire back side
         widget.body != null
