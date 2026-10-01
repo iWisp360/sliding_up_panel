@@ -1,9 +1,11 @@
-## [3.0.0] - [September 30, 2026]
+## [3.0.0+1] - [September 30, 2026]
 
 ### Fixes
 
 - Improve readability overall using newer dart features and modularizing the
 - Format code
+
+## [3.0.0] - [September 30, 2026]
 
 ### Breaking Changes
 
