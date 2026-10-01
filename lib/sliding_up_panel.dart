@@ -6,6 +6,5 @@ Copyright: © 2019, Akshath Jain. All rights reserved.
 Licensing: More information can be found here: https://github.com/akshathjain/sliding_up_panel/blob/master/LICENSE
 */
 
-library sliding_up_panel;
-
-export 'src/panel.dart';
+export 'package:sliding_up_panel/src/panel.dart';
+export 'package:sliding_up_panel/src/controller.dart';
