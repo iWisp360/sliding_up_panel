@@ -92,6 +92,8 @@ class _SlidingUpPanelState extends State<SlidingUpPanel>
     panelStateStream = .broadcast()
       ..add(widget.defaultPanelState)
       ..stream.listen((state) => panelState = state);
+
+    widget.controller?.useState(this);
   }
 
   @override
@@ -104,6 +106,8 @@ class _SlidingUpPanelState extends State<SlidingUpPanel>
 
   @override
   Widget build(BuildContext context) {
+    widget.controller?.useState(this);
+
     return Stack(
       alignment: switch (widget.slideDirection) {
         .up => .bottomCenter,

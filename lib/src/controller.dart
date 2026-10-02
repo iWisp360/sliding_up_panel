@@ -6,7 +6,11 @@ import 'package:sliding_up_panel/src/state.dart';
 class PanelController {
   PanelStateController? _panelState;
 
-  void useState(PanelStateController controller) => _panelState = controller;
+  void useState(PanelStateController controller) {
+    if (_panelState == null || controller != _panelState) {
+      _panelState = controller;
+    }
+  }
 
   PanelStateController get _currentState {
     assert(
