@@ -1,3 +1,10 @@
+## [4.0.0] - [October 2, 2026]
+
+### Breaking Changes
+
+- Full rewrite of the project
+- Switch license to AGPLv3
+
 ## [3.0.0+1] - [September 30, 2026]
 
 ### Fixes

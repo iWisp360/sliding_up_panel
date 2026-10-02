@@ -1,7 +1,7 @@
 name: sliding_up_panel
-description: A draggable Flutter widget that makes implementing a SlidingUpPanel much easier!
-version: 3.0.0+1
-homepage: https://github.com/akshathjain/sliding_up_panel
+description: A bottom sheet that can be clicked on demand for extra content.
+version: 4.0.0
+homepage: https://github.com/iWisp3360/sliding_up_panel
 
 environment:
   sdk: ^3.13.0
