@@ -56,7 +56,11 @@ class _ExampleState extends State<Example> {
     controller = PanelController();
   }
 
-  // Disposing is not required(for now)
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
